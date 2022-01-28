@@ -53,7 +53,7 @@ $app->post('/', function (Request $request, Response $response, $args) {
                     return new Deferred(function() use ($authors, $rootValue) {
                         return $authors[$rootValue['authorId']];
                     });
-                    //return $authors[$rootValue['authorId']];
+                    // return $authors[$rootValue['authorId']];
                 }
             ],
         ],
